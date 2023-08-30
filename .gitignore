@@ -52,3 +52,7 @@ Mkfile.old
 dkms.conf
 
 .history
+GPATH
+GRTAGS
+GTAGS
+tags
