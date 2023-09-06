@@ -56,3 +56,5 @@ GPATH
 GRTAGS
 GTAGS
 tags
+
+linux-kernel/test/**
