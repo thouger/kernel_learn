@@ -1,0 +1,13 @@
+[package]
+name = "kvrust"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.42"
+assert-str = "0.1"
+chrono = "0.4"
+structopt = "0.3.26"

@@ -28,12 +28,17 @@
 26. linux-kernel/procfs4.c:proc操作文件系统例子4
 27. linux-kernel/sched.c:异步队列
 28. linux-kernel/sleep.c:只允许其中一个进程打开，其他进程被阻塞
-29. 
-30. linux-kernel/print_string.c:将字符串输出到当前终端的TTY设备上
-31. ptrace-seccomp-demo:ptrace+seccomp拦截syscall
-32. ptrace_svc_intercept_arm64:拦截syscall
-33. Frida-Seccomp:一个Android通用svc跟踪以及hook方案
-34. android-kernel/jprobe_example.c:jprobe hook
-35. android-kernel/kprobe_example.c:kprobe hook
-36. android-kernel/kretprobe_example.c:kretpobe hook
-37. linux-kernel/lkm_example:通过创建设备文件与用户态进行通信
+29. linux-kernel/KoviD:一些Linux rootkit例子
+30. linux-kernel/reveng_rtkit:一些Linux rootkit例子
+31. linux-kernel/print_string.c:将字符串输出到当前终端的TTY设备上
+32. ptrace-seccomp-demo:ptrace+seccomp拦截syscall
+33. ptrace_svc_intercept_arm64:拦截syscall
+34. Frida-Seccomp:一个Android通用svc跟踪以及hook方案
+35. android-kernel/jprobe_example.c:jprobe hook
+36. android-kernel/kprobe_example.c:kprobe hook
+37. android-kernel/kretprobe_example.c:kretpobe hook
+38. linux-kernel/lkm_example:通过创建设备文件与用户态进行通信
+39. linux-kernel/Diamorphine
+    1.  kill -63 0 加载了模块就自动隐藏，这个是用来显示模块
+    2.  kill -64 获得root权限
+    3.  kill -31 隐藏模块

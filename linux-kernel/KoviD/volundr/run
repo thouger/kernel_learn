@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ "$#" -lt 1 ]]; then
+    echo "Use <example code> [[example] [-h]]"
+    echo "examples:"
+    for i in example-headers example-infect-text \
+        example-infect-note example-long example-sctidx; do
+        printf "\t%s\n" "$i"
+    done
+    exit
+fi
+LD_LIBRARY_PATH=./volundr ./examples/"$@"

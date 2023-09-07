@@ -7,17 +7,12 @@ obj-m += example_spinlock.o
 obj-m += example_tasklet.o
 obj-m += hello-sysfs.o
 obj-m += ioctl.o
-obj-m += procfs1
-obj-m += procfs2
-obj-m += procfs3
-obj-m += procfs4
-obj-m += sched
-obj-m += sleep
-obj-m += print_string
-obj-m += print_string
-obj-m += print_string
-obj-m += print_string
-obj-m += print_string
+obj-m += procfs1.o
+obj-m += procfs2.o
+obj-m += procfs3.o
+obj-m += procfs4.o
+obj-m += sched.o
+obj-m += sleep.o
 
 all:
 	$(MAKE) -C /lib/modules/$(shell uname -r)/build CC=$(CC) M=$(PWD) modules

